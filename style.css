@@ -1,3 +1,8 @@
+ /*
+    DSEG7 font courtesy of Keshikan
+    https://www.keshikan.net/fonts-e.html
+*/
+
 @font-face {
     font-family: DSEG7;
     src: url(./fonts/DSEG7ClassicMini-Regular.ttf);

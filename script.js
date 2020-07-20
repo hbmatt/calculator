@@ -103,3 +103,38 @@ equals.addEventListener('click', () => {
     storedValue = NaN;
 });
 
+window.addEventListener('keydown', (e) => {
+    let keyCode = e.keyCode;
+    if (keyCode >= 48 && keyCode <= 57) {
+        document.querySelector(`button[data-key="${e.keyCode}"]`).click();
+    } else {
+        switch (keyCode) {
+            case 67:
+                clear.click();
+                break;
+            case 8:
+                backspace.click();
+                break;
+            case 191:
+                document.querySelector('.divide').click();
+                break;
+            case 56:
+                document.querySelector('.multiply').click();
+                break;
+            case 173:1
+                document.querySelector('.subtract').click();
+                break;
+            case 61:
+                document.querySelector('.add').click();
+                break;
+            case 13:
+                document.querySelector('#equals').click();
+                break;
+            case 190:
+                document.querySelector('.decimal').click();
+                break;
+        };
+    };
+
+});
+
