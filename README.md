@@ -1,0 +1,1 @@
+This is a project from The Odin Project to create a browser calculator using pure JavaScript.
